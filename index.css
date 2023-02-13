@@ -1,0 +1,13 @@
+﻿body {
+    background-color: #4f2c19;
+    text-align: center;
+}
+
+div.clock
+{
+    font-family: Courier New, Courier, monospace;
+    font-size: 3em;
+    letter-spacing: 0.5em;
+    color: #7b4125;
+    cursor: default;
+}

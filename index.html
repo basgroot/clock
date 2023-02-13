@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="VIEWPORT" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <title>Wortuhr</title>
+</head>
+<body>
+    <br />
+    <div class="clock" id="idClock">
+        <span class="1">&bullet;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="2">&bullet;</span><br />
+        <div id="idClockContent">&nbsp;</div>
+        <span class="4">&bullet;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="3">&bullet;</span><br />
+        <br />
+    </div>
+    <select id="idCbxLanguage">
+        <option value="en">English</option>
+        <option value="de_orig">Deutsch (11x10)</option>
+        <option value="de_small">Deutsch (11x9)</option>
+        <option value="nl_orig" selected>Nederlands (11x10)</option>
+        <option value="nl_small" selected>Nederlands (10x9)</option>
+    </select>
+    <input type="time" value="16:38" id="idTime" />
+</body>
+</html>
